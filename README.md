@@ -1,19 +1,22 @@
-# Face Detection with OpenCV
+# Face Detection 
 
-In this project was used OpenCV library to detect faces in an image.
+## General info
+In this project was used OpenCV library to detect face, eyes and smile in an image.
 The OpenCV library has two pre-trained face detection classifiers and this task was used Harr Classifier.
 
-* Face_eye_smile_detection - detection face, eyes and smile in an image
-* Face_Detection - detection faces in an image
+## Project includes:
+* Detection face, eyes and smile in an image - **Face_eye_smile_detection.ipynb**
+* Detection faces in an image - **Face_Detection.ipynb**
 
 ## Technologies
 Project is created with:
-* OpenCV
-* python/ numpy/ matplotlib
 
-## Setup
+* Python 3.6
+* libraries: OpenCV, numpy, matplotlib.
+
+### Running the project:
 To run this project, install it locally using for example:
 ```
 pip install opencv
 ```
-Download the notebook and "haarcascade_frontalface_default.xml" file to your system and then run it as a Jupyter Notebook.
+Download the notebook and models/"haarcascade_frontalface_default.xml" file to your system and then run it as a Jupyter Notebook.
