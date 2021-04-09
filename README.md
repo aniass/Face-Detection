@@ -1,7 +1,7 @@
 # Face Detection 
 
 ## General info
-In this project was used OpenCV library to detect face, eyes and smile in an image.
+In this project used OpenCV library to detect face, eyes and smile in an image.
 The OpenCV library has two pre-trained face detection classifiers and this task was used Harr Classifier.
 
 ## Project includes:
