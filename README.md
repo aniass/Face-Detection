@@ -15,8 +15,9 @@ Project is created with:
 * libraries: OpenCV, numpy, matplotlib.
 
 ### Running the project:
-To run this project, install it locally using for example:
+To run this project install locally packages:
 ```
 pip install opencv
 ```
-Download the notebook and models/"haarcascade_frontalface_default.xml" file to your system and then run it as a Jupyter Notebook.
+
+Next download the notebook and models/"haarcascade_frontalface_default.xml" to your system and run it use Jupyter Notebook or Google Colab.
