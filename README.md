@@ -7,6 +7,7 @@ The OpenCV library has two pre-trained face detection classifiers and this task 
 ## Project includes:
 * Detection face, eyes and smile in an image - **Face_eye_smile_detection.ipynb**
 * Detection faces in an image - **Face_Detection.ipynb**
+* Python scripts with face detection model - **face.py**
 
 ## Technologies
 Project is created with:
