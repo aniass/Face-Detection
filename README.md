@@ -21,4 +21,8 @@ To run this project install locally packages:
 pip install opencv
 ```
 
-Next download the notebook and models/"haarcascade_frontalface_default.xml" to your system and run it use Jupyter Notebook or Google Colab.
+Next download the notebook and models/"haarcascade_frontalface_default.xml" to your system and run the script:
+
+    face.py
+
+To run Face_Detection.ipynb and Face_eye_smile_detection.ipynb files use Jupyter Notebook or Google Colab.
