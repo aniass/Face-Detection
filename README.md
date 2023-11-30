@@ -7,6 +7,7 @@ The OpenCV library has two pre-trained face detection classifiers and this task 
 ## Project includes:
 * Detection face, eyes and smile in an image - **Face_eye_smile_detection.ipynb**
 * Detection faces in an image - **Face_Detection.ipynb**
+* Python script with face detection model - **face.py**
 
 ## Technologies
 Project is created with:
@@ -20,4 +21,8 @@ To run this project install locally packages:
 pip install opencv
 ```
 
-Next download the notebook and models/"haarcascade_frontalface_default.xml" to your system and run it use Jupyter Notebook or Google Colab.
+Next download the notebook and models/"haarcascade_frontalface_default.xml" to your system and run the script:
+
+    face.py
+
+To run Face_Detection.ipynb and Face_eye_smile_detection.ipynb files use Jupyter Notebook or Google Colab.
