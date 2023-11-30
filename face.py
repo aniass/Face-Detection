@@ -10,10 +10,12 @@ smile_cascade = cv2.CascadeClassifier(SMILE_CASCADE_PATH)
 
 
 def convert_color(image):
+    '''Converts the BGR image format to RGB to display the true colors of the image'''
     return cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 
 def detect_features(gray, images):
+    '''Function to detects face, eye and smile'''
     faces = face_cascade.detectMultiScale(gray, 1.3, 5, minSize=(0, 0), flags=cv2.CASCADE_SCALE_IMAGE)
     
     # Draw a rectangle around the each faces, eye and smile
